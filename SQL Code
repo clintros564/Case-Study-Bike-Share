@@ -1,0 +1,390 @@
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202201`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202202`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202203`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202204`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202205`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202206`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202207`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202208`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202209`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202210`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202211`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202212`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202206_01`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202210_01`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202207_01`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202208_01`
+UNION DISTINCT
+SELECT 
+        ride_id, 
+        rideable_type, 
+        started_at, 
+        ended_at, 
+	  start_station_name, 
+	  start_station_id, 
+        end_station_name, 
+	  end_station_id, 
+        start_lat, 
+        start_lng, 
+	  end_lat, 
+        end_lng, 
+        member_casual,
+	  ride_length,
+	  CAST(started_at_time AS STRING) AS started_at_time,
+	  ride_date,
+	  ride_month,
+	  day_of_week,
+	  season
+FROM 
+        `careful-emitter-376816.CS_Bike_Share.202209_01`
