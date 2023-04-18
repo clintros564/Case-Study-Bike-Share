@@ -128,14 +128,16 @@ The analysis question is: How do annual members and casual riders use Cyclistic 
 
 First of all, member and casual riders are compared by the type of bikes they are using.  
 
-![image](https://user-images.githubusercontent.com/125132307/226692931-ecd2eb32-ffce-481a-b3c2-a6c3b4f3ceb7.png)
+    <img width="653" alt="image" src="https://user-images.githubusercontent.com/130879793/232668553-afd4b233-1da5-47e7-a63f-bb7f2a9bac12.png">
+
   
-The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
+The members make 59.31% of the total while remaining 40.69% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
   
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
   
-![image](https://user-images.githubusercontent.com/125132307/230122705-2f157258-e673-4fc5-bbed-88050b6aae68.png)
-![image](https://user-images.githubusercontent.com/125132307/230122935-8d0889c3-f0ff-43ce-94ab-393f2e230bee.png)
+    <img width="788" alt="image" src="https://user-images.githubusercontent.com/130879793/232668890-1579db14-314f-4b9a-951c-2cd57c711b2d.png">
+    <img width="428" alt="image" src="https://user-images.githubusercontent.com/130879793/232669033-09b930bc-2ffd-412a-9ad1-2a5df2560fd4.png">
+
   
 __Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.  
