@@ -79,47 +79,41 @@ Observations:
 
 ### Data Cleaning
 Data cleaning and manipulation
-Microsoft Excel: initial data cleaning and manipulation
+### Microsoft Excel: initial data cleaning and manipulation
 Our next step is making sure the data is stored appropriately and prepared for analysis. After downloading all 12 zip files and unzipping them, I housed the files in a temporary folder on my desktop. I also created subfolders for the .CSV files and the .XLS files so that I have a copy of the original data. Then, I launched Excel, opened each file, and chose to Save As an Excel Workbook file. For each .XLS file, I did the following:
 
-Changed format of started_at and ended_at columns
+1. Changed format of started_at and ended_at columns
 Formatted as custom DATETIME
 Format > Cells > Custom > yyyy-mm-dd h:mm:ss
-Created a column called ride_length
-Calculated the length of each ride by subtracting the column started_at from the column ended_at (example: =D2-C2)
-Formatted as TIME
-Format > Cells > Time > HH:MM:SS (37:30:55)
-Created a column called ride_date
-Calculated the date of each ride started using the DATE command (example: =DATE(YEAR(C2),MONTH(C2),DAY(C2)))
-Format > Cells > Date > YYYY-MM-DD
-Created a column called ride_month
-Entered the month of each ride and formatted as number (example: January: =1)
-Format > Cells > Number
-Created a column called ride_year
-Entered the year of each ride and formatted as general
-Format > Cells > General > YYYY
-Created a column called start_time
-Calculated the start time of each ride using the started_at column
-Formatted as TIME
-Format > Cells > Time > HH:MM:SS (37:30:55)
-Created a column called end_time
-Calculated the end time of each ride using the ended_at column
-Formatted as TIME
-Format > Cells > Time > HH:MM:SS (37:30:55)
-Created a column called day_of_week
+
+2. Created a column called ride_length
+Calculated the length of each ride by subtracting the column started_at from the column ended_at (example: =D2-C2) formatted as TIME, Format > Cells > Time > HH:MM:SS (37:30:55)
+
+3. Created a column called started_at. Calculated using =TEXT(C2,"h")
+
+4. Created a column called ride_date. calculated the date of each ride started using the DATE command (example: =DATE(YEAR(C2),MONTH(C2),DAY(C2))) format > Cells > Date > YYYY-MM-DD
+
+5. Created a column called ride_month. Entered the month of each ride and formatted as number (example: January: =1). Format > Cells > Number
+
+6. Created a column called day_of_week
 Calculated the day of the week that each ride started using the WEEKDAY command (example: =WEEKDAY(C2,1))
 Formatted as a NUMBER with no decimals
 Format > Cells > Number (no decimals) > 1,2,3,4,5,6,7
-Note: 1 = Sunday and 7 = Saturday
+
+7. Created a column called season. Manually entered based on the season of that month.
+
 After making these updates, I saved each .XLS file as a new .CSV file.
 
 Bike station data that is made publicly available by the city of Chicago will also be used. It can be downloaded here. In terms of bias and credibility, both data sources we are using ROCCC:
 
-Reliable and original: this is public data that contains accurate, complete and unbiased info on Cyclistic’s historical bike trips. It can be used to explore how different customer types are using Cyclistic bikes.
+### Reliable and original: 
+This is public data that contains accurate, complete and unbiased info on Cyclistic’s historical bike trips. It can be used to explore how different customer types are using Cyclistic bikes.
 
-Comprehensive and current: these sources contain all the data needed to understand the different ways members and casual riders use Cyclistic bikes. The data is from the past 12 months. It is current and relevant to the task at hand. This is important because the usefulness of data decreases as time passes.
+### Comprehensive and current: 
+These sources contain all the data needed to understand the different ways members and casual riders use Cyclistic bikes. The data is from the past 12 months. It is current and relevant to the task at hand. This is important because the usefulness of data decreases as time passes.
 
-Cited:these sources are publicly available data provided by Cyclistic and the City of Chicago. Governmental agency data and vetted public data are typically good sources of data.
+### Cited:
+These sources are publicly available data provided by Cyclistic and the City of Chicago. Governmental agency data and vetted public data are typically good sources of data.
 
 SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
 1. All the rows having missing values are deleted.  
