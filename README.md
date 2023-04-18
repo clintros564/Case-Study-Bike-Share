@@ -115,14 +115,13 @@ These sources contain all the data needed to understand the different ways membe
 ### Cited:
 These sources are publicly available data provided by Cyclistic and the City of Chicago. Governmental agency data and vetted public data are typically good sources of data.
 
-SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
+SQL Query: [Data Cleaning](https://github.com/clintros564/Case-Study-Bike-Share/blob/main/SQL%20Cleaning)  
 1. All the rows having missing values are deleted.  
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
   
 ## Analyze and Share
-SQL Query: [Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
 Data Visualization: [Tableau]( https://public.tableau.com/app/profile/clint.valen.ortega.ros/viz/Case_Study_Bike_Share_16816202843600/CS_Bike_Share_02)  
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
